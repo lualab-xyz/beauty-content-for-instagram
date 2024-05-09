@@ -1,0 +1,20 @@
+@import './Reset.scss';
+@import './Variables.scss'; 
+
+.header {
+    background-color: #D2CBC2;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+
+        &-img {
+            width: 500px; /* Ajusta según sea necesario */
+            height: auto;  
+        } 
+    } 
+}
